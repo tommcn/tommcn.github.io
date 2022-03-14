@@ -1,10 +1,10 @@
 ---
 enable: true
-topTitle: Hello, I am Tomas
+topTitle: Hello
 content: >
-  # I am here
+  # I'm Tomas
 
-  :)
+  I'm a 16 year old student interested in computer science and mathematics.
 buttonName: Contact me
 buttonURL: contact
 image: images/hero/2960351.jpg
