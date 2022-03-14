@@ -1,11 +1,10 @@
 ---
 enable: true
-topTitle: Hello, I am Natasha
+topTitle: Hello, I am Tomas
 content: >
-  # I am here for your personal business
+  # I am here
 
-  Enjoy team diversity and increase their networks among others people
-  in various fields by
+  :)
 buttonName: Contact me
 buttonURL: contact
 image: images/hero/2960351.jpg
