@@ -3,7 +3,6 @@ languageCode = "en-us"
 paginate = 6
 theme = "portio"
 title = "Tomas McNamer"
-# Main Menu
 [[menu.main]]
 name = "Home"
 url = "#home"
@@ -13,21 +12,13 @@ name = "About"
 url = "#about"
 weight = 2
 [[menu.main]]
-name = "Service"
-url = "#service"
-weight = 3
-[[menu.main]]
-name = "Work"
+name = "Portfolio"
 url = "#portfolio"
-weight = 4
+weight = nil
 [[menu.main]]
 name = "Resume"
 url = "#resume"
 weight = 5
-[[menu.main]]
-name = "Skills"
-url = "#skills"
-weight = 6
 [[menu.main]]
 name = "Blog"
 url = "#blog"
@@ -36,8 +27,6 @@ weight = 7
 name = "Contact"
 url = "#contact"
 weight = 8
-
-# Sitemap Menu
 [[menu.sitemap]]
 name = "About me"
 url = "about"
@@ -54,21 +43,25 @@ weight = 3
 name = "Latest Article"
 url = "#"
 weight = 4
-
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
+contactformURL = "mailto:tommcn@mcnamer.ca"
 copyright = "All right reserved copyright © Portio 2022"
 footerLogo = "images/contact/widget-logo.png"
-contactformURL = "mailto:tommcn@mcnamer.ca"
-# googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
+formspreeURL = ""
+googleAnalytics = ""
 logo = "images/site-navigation/logo.png"
-
 [params.address]
+address = ""
 email = "tommcn@mcnamer.ca"
-# phone = "1-416-867-5309"
-
-# Social icons
+openingHours = ""
+phone = ""
+[params.map]
+APIkey = ""
+latitude = ""
+longitude = ""
+pinImage = ""
 [[params.social]]
 icon = "fa-linkedin-square"
 url = "https://www.linkedin.com/in/tomas-mc"
