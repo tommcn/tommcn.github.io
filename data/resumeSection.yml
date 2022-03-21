@@ -9,9 +9,9 @@ tab2Name: Experiences
 tab1Target: education
 tab2Target: experience
 education:
-- content: |
+- content: |-
     ### Master in Arts
-    Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+    Hello, World
   time: 2008-2010
 - content: |
     ### Master in Arts
