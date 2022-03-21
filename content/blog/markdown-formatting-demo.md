@@ -1,8 +1,8 @@
 ---
 title: "Markdown Formatting Demo"
 date: 2020-09-13T12:49:27+06:00
-featureImage: images/allpost/allPost-6.jpg
-postImage: images/single-blog/feature-image.jpg
+featureImage: images/allpost/allPost-6.webp
+postImage: images/single-blog/feature-image.webp
 tags: website
 categories: blog
 ---
@@ -145,8 +145,8 @@ Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 (note: redacted this section cause images were too big)
 
 <!--
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+![Minion](https://octodex.github.com/images/minion.webp)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.webp "The Stormtroopocat")
 
 Like links, Images also have a footnote style syntax
 
@@ -154,7 +154,7 @@ Like links, Images also have a footnote style syntax
 
 With a reference later in the document defining the URL location:
 
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat" -->
+[id]: https://octodex.github.com/images/dojocat.webp  "The Dojocat" -->
 
 ## Plugins
 
