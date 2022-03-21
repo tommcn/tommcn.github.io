@@ -52,6 +52,7 @@ footerLogo = "images/contact/widget-logo.png"
 formspreeURL = ""
 googleAnalytics = ""
 logo = "images/site-navigation/logo.png"
+description = "Tomas McNamer's personal website"
 [params.address]
 address = ""
 email = "tommcn@mcnamer.ca"
