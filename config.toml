@@ -57,7 +57,7 @@ description = "Tomas McNamer's personal website"
 address = ""
 email = "tommcn@mcnamer.ca"
 openingHours = ""
-phone = ""
+# phone = ""
 [params.map]
 APIkey = ""
 latitude = ""
