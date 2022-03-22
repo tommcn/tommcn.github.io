@@ -1,4 +1,4 @@
-baseURL = "https://tommcn.github.io/"
+baseURL = "https://tomas.mcnamer.ca/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
