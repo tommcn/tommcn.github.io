@@ -8,8 +8,14 @@ fields:
 - type: text
   name: topTitle
   label: subtitle
-- type: text
-  name: content
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: content
 - type: text
   name: buttonName
