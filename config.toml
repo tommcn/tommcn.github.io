@@ -28,16 +28,16 @@ name = "Contact"
 url = "#contact"
 weight = 8
 [[menu.sitemap]]
-name = "About me"
-url = "about"
+name = "Contact me"
+url = "contact"
 weight = 1
 [[menu.sitemap]]
-name = "Frequently Ask Question"
-url = "#"
+name = "Portfolio"
+url = "portfolio"
 weight = 2
 [[menu.sitemap]]
-name = "Privacy & Policy"
-url = "#"
+name = "Blog"
+url = "blog"
 weight = 3
 [[menu.sitemap]]
 name = "Latest Article"

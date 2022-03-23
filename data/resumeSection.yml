@@ -1,18 +1,16 @@
 ---
 enable: true
 topTitle: A Quick Resume
-title: >
+title: |
   ## My Education and Experiences
 
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-  sed diam nonumy eirmod tempor invidunt ut labore et dolore.
-
-  Magna aliquyam erat,
-  sed diam voluptua. At vero eos accusam justo.
+  A small list of my education and accomplishments. For more information, you can check out my resume
 tab1Name: Education
 tab2Name: Experiences
 tab1Target: education
 tab2Target: experience
+resumeButtonName: View Resume
+resumeTarget: images/tomas-mcnamer-resume.pdf
 education:
   - content: |
       ### Lycée Paul Claudel, Ottawa, Canada
@@ -27,23 +25,25 @@ education:
       Various online courses for the analysis of algorithms, penetration testing, philosophy, and more
     time: 2017-2021
 experience:
-  - content:
-      "### Umbrella co. \nLorem ipsum dolor sit amet conset sadipscing elitr,
-      sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-      sed diam\n"
-    time: 2016-Present
-  - content:
-      "### Aperture Science \nLorem ipsum dolor sit amet conset sadipscing elitr,
-      sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-      sed diam\n"
-    time: 2010-2016
-  - content:
-      "### ACME Inc. \nLorem ipsum dolor sit amet conset sadipscing elitr, sed
-      diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam\n"
-    time: 2005-2010
-  - content:
-      "### LexCorp \nLorem ipsum dolor sit amet conset sadipscing elitr, sed
-      diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam\n"
-    time: 2001-2005
+  - content: |
+      ### HackTheBox
+
+      Reached a top spot on HackTheBox's platform, an ethical hacking and penetration testing platform
+    time: 2021-Present
+  - content: |
+      ### InfiniHacks
+
+      Organized an [international hackathon for high school students](https://infinihacks.devpost.com/), including reaching out to sponsors,
+      coordinating events and providing prizes
+    time: "2021"
+  - content: |
+      ### Hackathons
+
+      Participated in many hackathons, winning [HackTheNorth](https://devpost.com/software/hive-hq), cuHacking and Microsoft Encode
+    time: 2020-2021
+  - content: |
+      ### Competions
+
+      Competed in mathematics and computing competitions organized by the university of Waterloo,
+      including the CCC and Lagrange
+    time: 2019-2022
