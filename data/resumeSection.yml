@@ -1,31 +1,31 @@
 ---
 enable: true
-topTitle: My Resume
-title:
-  "## My Expertises\nLorem ipsum dolor sit amet, consetetur sadipscing elitr,
-  sed diam nonumy eirmod tempor invidunt ut labore et dolore  \n\nMagna aliquyam erat,
-  sed diam voluptua. At vero eos accusam justo.\n"
+topTitle: A Quick Resume
+title: >
+  ## My Education and Experiences
+
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+  sed diam nonumy eirmod tempor invidunt ut labore et dolore.
+
+  Magna aliquyam erat,
+  sed diam voluptua. At vero eos accusam justo.
 tab1Name: Education
 tab2Name: Experiences
 tab1Target: education
 tab2Target: experience
 education:
-  - content: |-
-      ### Master in Arts
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
   - content: |
-      ### Master in Arts
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+      ### Lycée Paul Claudel, Ottawa, Canada
+      French Baccalaureate with specialty in Mathematics, Physics, Chemistry and Computer Science
+    time: 2009-Present
   - content: |
-      ### Master in Arts
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+      ### Algorithms II
+      Algorithms and data structures course from the university of Carleton Math Enrichement Center
+    time: 2019-2020
   - content: |
-      ### Master in Arts
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+      ### Online courses
+      Various online courses for the analysis of algorithms, penetration testing, philosophy, and more
+    time: 2017-2021
 experience:
   - content:
       "### Umbrella co. \nLorem ipsum dolor sit amet conset sadipscing elitr,
