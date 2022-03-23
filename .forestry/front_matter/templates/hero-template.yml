@@ -2,35 +2,35 @@
 label: Hero Template
 hide_body: true
 fields:
-- type: boolean
-  name: enable
-  label: enable
-- type: text
-  name: topTitle
-  label: subtitle
-- name: content
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: content
-- type: text
-  name: buttonName
-  label: buttonName
-- type: text
-  name: buttonURL
-  label: buttonURL
-- type: file
-  name: image
-  label: image
-- type: file
-  name: videoThumb
-  label: videoThumb
-- type: text
-  name: videoURL
-  label: videoURL
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: topTitle
+    label: subtitle
+  - name: content
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: content
+  - type: text
+    name: buttonName
+    label: buttonName
+  - type: text
+    name: buttonURL
+    label: buttonURL
+  - type: file
+    name: image
+    label: image
+  - type: file
+    name: videoThumb
+    label: videoThumb
+  - type: text
+    name: videoURL
+    label: videoURL
 pages:
-- data/hero.yml
+  - data/hero.yml

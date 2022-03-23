@@ -4,17 +4,14 @@ topTitle: About
 title: >
   ## About me
 
-  Enjoy team diversity and increase their networks among others people in
-  various fields by provided.
+  Enjoy problem solving, programming and learning new skills to solve real world problems.
 content: >
-  ### I design and build ultimate things.
+  ### I build anything. 
 
-  I love to work in User Experience & User Interface designing. Because I love
-  to solve the design problem and find easy and better solutions to solve it. I always
-  try my best to make good user interface with the best user experience. I have been
-  working as a Visual designer from.
-button1Name: Hire me
+  I am a self-taught developer, starting with Python at a young age. Since then, I have worked with C,
+  JavaScript/TypeScript, Ruby, HTML/CSS, and more. I am always looking for new challenges and new ways to improve myself.
+button1Name: Contact Me
 button2Name: Download CV
 button1Target: contact
-button2Target: contact
+button2Target: images/tomas-mcnamer-resume.pdf
 image: images/about/about-img.webp
