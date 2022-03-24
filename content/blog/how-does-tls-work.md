@@ -1,4 +1,13 @@
-
+---
+title: "How does TLS work"
+date: 2021-10-24T12:00:00+00:00
+featureImage: https://miro.medium.com/max/700/1*ner-yFUzwHIG_nkxW9C29g.png
+postImage: https://miro.medium.com/max/700/0*g-u8XnVc7abfIlbH
+# tags: c
+categories: blog
+toc: true
+mediumLink: https://medium.com/visionary-hub/how-does-tls-work-87ff948d5410
+---
 # How Does TLS Work
 
 Introduction
@@ -9,7 +18,7 @@ I’m sure we’ve all been told to make sure that our browser shows a little lo
 
 ## What is TLS
 
-Basically, **TLS provides encryption for communication between two peers**. TLS is used when web browsers load a secure webpage and even when you send an email or use VoIP software. Many protocols rely on TLS: HTTPS, SFTP, SMTP… (basically most protocols that has an “S” for secure in its name). TLS provides a secure communication channel that is free of tampering and snooping.
+Basically, **TLS provides encryption for communication between two peers**. TLS is used when web browsers load a secure webpage and even when you send an email or use VoIP software. Many protocols rely on TLS: HTTPS, SFTP, SMTP… (basically most protocols that have an “S” for secure in their name). TLS provides a secure communication channel that is free of tampering and snooping.
 
 ![Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/11520/0*g-u8XnVc7abfIlbH)*Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)*
 
@@ -20,7 +29,7 @@ However TLS is not the end all be all of security, it doesn’t guarantee the sa
 ![By Indolering — Own work, CC0, [https://commons.wikimedia.org/w/index.php?curid=42758689](https://commons.wikimedia.org/w/index.php?curid=42758689)](https://cdn-images-1.medium.com/max/2234/1*xcPLGhUmiQEn1VZQZd8QsA.png)*By Indolering — Own work, CC0, [https://commons.wikimedia.org/w/index.php?curid=42758689](https://commons.wikimedia.org/w/index.php?curid=42758689)*
 
 In the mid 1990s, web browsers were still emerging. **Netscape**, which had a market share of around 75% at the time, **proposed a protocol for secure communication between servers and clients**. This new protocol was called SSL (Secure Socket Layer). SSL 1.0 never released due to severe security flaws. SSL 2.0 was released in 1995 it also contained serious security flaws and made many assumptions making it unusable at the time. After these 2 failed protocols, a complete redesign of the protocol was released as SSL 3.0 in 1996.
-At this time, **Microsoft’s Edge and Netscape’s Navigator were competing for market share**. This led to both browsers implementing many exclusive features in their respective browsers. In 1996, both Microsoft and Netscape met and decided to support the [IETF](https://www.ietf.org/) (Internet Engineering Task Force) in updating and standardizing the SSL protocol, instead of having both of them create their own proprietary encryption software. **A new protocol was released, dubbed TLS 1.0 **(Transport Layer Security). This new standard was not widely different from its predecessor. Microsoft proposed the name change so that TLS was not associated with all the problems of SSL. At the time of writing, TLS 1.2 is the most widely used to this day, but the TLS version 1.3 was released in 2018 and contains many cryptographic improvements. Both TLS 1.2 and 1.3 are considered secure. TLS versions 1.1 and 1.0 and all SSL versions are considered insecure and should not be used. In fact, most major browsers will display a warning upon entering a site that uses an outdated protocol.
+At this time, **Microsoft’s Edge and Netscape’s Navigator were competing for market share**. This led to both browsers implementing many exclusive features in their respective browsers. In 1996, both Microsoft and Netscape met and decided to support the [IETF](https://www.ietf.org/) (Internet Engineering Task Force) in updating and standardizing the SSL protocol, instead of having both of them create their own proprietary encryption software. **A new protocol was released, dubbed TLS 1.0** (Transport Layer Security). This new standard was not widely different from its predecessor. Microsoft proposed the name change so that TLS was not associated with all the problems of SSL. At the time of writing, TLS 1.2 is the most widely used to this day, but the TLS version 1.3 was released in 2018 and contains many cryptographic improvements. Both TLS 1.2 and 1.3 are considered secure. TLS versions 1.1 and 1.0 and all SSL versions are considered insecure and should not be used. In fact, most major browsers will display a warning upon entering a site that uses an outdated protocol.
 
 ## Quick primer on cryptography
 
