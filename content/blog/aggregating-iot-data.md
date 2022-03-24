@@ -33,15 +33,16 @@ To build this project I used many amazing open source technologies. The server i
 ![Django logo](https://cdn-images-1.medium.com/max/2400/1*HVKOLLX7wprRbHTl2IPDcQ.png)*Django logo*
 
 On top of Django, I used the [Django Rest Framework](https://github.com/encode/django-rest-framework) (DRF), a framework that helps turn your Django server into a REST API. A REST (Representational State Transfer) API (Application Programming Interface) is, to put it simply, each entry in the database (called ressource) has its own unique URL (ex. https://example.com/articles/12) and operations on these ressources are done using very specific types of requests. DRF makes it very easy to keep track of what's going on and keep clean urls:
+```txt
+GET <https://example.com/api/streams> -> List all the streams
+POST <https://example.com/api/streams> -> Create a new stream
 
-    GET <https://example.com/api/streams> -> List all the streams
-    POST <https://example.com/api/streams> -> Create a new stream
+GET <https://example.com/api/streams/619b> -> List the stream with id 619b
+PUT <https://example.com/api/streams/619b> -> Edit the stream with id 619b
 
-    GET <https://example.com/api/streams/619b> -> List the stream with id 619b
-    PUT <https://example.com/api/streams/619b> -> Edit the stream with id 619b
-
-    GET <https://example.com/api/streams/619b/entries> -> List all the entries for the stream with id 619b
-    POST <https://example.com/api/stream/619b/entries> -> Create a new entry for the stream with id 619b
+GET <https://example.com/api/streams/619b/entries> -> List all the entries for the stream with id 619b
+POST <https://example.com/api/stream/619b/entries> -> Create a new entry for the stream with id 619b
+```
 
 An other unique feature of DRF is that it is able to automatically create what’s called an [OpenAPI](https://www.openapis.org/) documentation file, which is a standard for documenting APIs. This makes it incredibly easy for teams to work together, where we could have one person working on the server (backend) and someone else working on the web page (frontend) and the designer would be able to see exactly how they should interact with the backend to get a specific ressource or utilize a certain feature.
 
