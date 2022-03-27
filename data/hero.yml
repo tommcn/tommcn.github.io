@@ -1,12 +1,11 @@
 ---
 enable: true
 topTitle: Hello
-content: >
+content: |
   # I'm Tomas
-
   A 16 year old student interested in computer science and mathematics.
 buttonName: Contact me
 buttonURL: contact
 image: images/hero/2960351.webp
-videoThumb: images/hero/popup-thumb.webp
-videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+videoThumb: ''
+videoURL: ''
