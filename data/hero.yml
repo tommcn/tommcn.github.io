@@ -6,6 +6,6 @@ content: |
   A 16 year old student interested in computer science and mathematics.
 buttonName: Contact me
 buttonURL: contact
-image: images/hero/2960351.webp
+image: "/images/photo.jpg"
 videoThumb: ''
 videoURL: ''
