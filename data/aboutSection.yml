@@ -1,17 +1,16 @@
 ---
 enable: true
 topTitle: About
-title: >
+title: |
   ## About me
-
   Enjoy problem solving, programming and learning new skills to solve real world problems.
-content: >
-  ### I build anything. 
-
-  I am a self-taught developer, starting with Python at a young age. Since then, I have worked with C,
-  JavaScript/TypeScript, Ruby, HTML/CSS, and more. I am always looking for new challenges and new ways to improve myself.
+content: "### I build anything. \nI am a self-taught developer, starting with Python
+  at a young age. Since then, I have worked with C, JavaScript/TypeScript, Ruby, HTML/CSS,
+  and more. I am always looking for new challenges and new ways to improve myself.\n"
 button1Name: Contact Me
 button2Name: Download CV
 button1Target: contact
 button2Target: images/tomas-mcnamer-resume.pdf
-image: images/about/about-img.webp
+image: "/images/photo-1.jpg"
+subtitle: ''
+title2: ''
